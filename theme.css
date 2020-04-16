@@ -1,7 +1,11 @@
-.divtop
+.divbar
 {
-    text-align: center;
-    text-decoration: wavy;
-    
+    position:absolute;
+    top:25px;
+    border: 60px black;
+}
 
+a{
+    font: 25px Impact red; 
+    text-align: center;
 }
