@@ -1,11 +1,31 @@
-.divbar
-{
-    position:absolute;
-    top:25px;
-    border: 60px black;
-}
 
-a{
-    font: 25px Impact red; 
+.divbar
+    {
+    background-color:#FFAF9F ;
+    width: 100%;
+    height: 60px;
+
+    }
+
+.divbar a
+    {
+    box-sizing: border-box;
+    float: left;
+    width: 25%;
+    height: 100%;
+    font-size: 25px;
+    padding: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-weight: bold;
+    color:black;
     text-align: center;
+    text-decoration: none;
+    }
+.divbar a:hover
+{
+    background-color: rgba(251, 164, 147, 0.747);
+}
+.divbar a.active
+{
+    background-color:#9FEFFF;
 }
