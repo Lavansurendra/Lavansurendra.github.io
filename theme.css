@@ -1,7 +1,40 @@
-body{
-    background-image: image(src ="Lavan.jpg" alt "Picture of lavan");
-    background-repeat : no-repeat
+.background {
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+  }
+.Lavanviolin { background-image: url("Lavanviolin.jpg"); }
+.Decanationalsgroup { background-image: url("DecaNationalsgroup.JPG"); }
+.Lavanfamily { background-image: url("Lavanfamily.JPG"); }
+.Lavanfamily2{ background-image: url("Lavanfamily2.JPG"); }
+.Lavanrobotics { background-image: url("LavanRobotics.JPG"); }
+.Decanationalssolo { background-image: url("DecaNationalssolo.JPG"); }
+.Decaregionals { background-image: url("Decaregionals.JPG"); }
+
+@font-face{
+    font-family: Robotothin;
+    src: url(Roboto-Thin.ttf);
 }
+.largetext{
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+    font-family:Robotothin;
+    border: 10px solid #f1f1f1;
+    position: fixed; 
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+  }
+
 .divbar
     {
     background-color:#FFAF9F ;
@@ -9,8 +42,8 @@ body{
     height: 60px;
     position: fixed;
     top: 0px;
-
     }
+
 
 .divbar a
     {
@@ -20,7 +53,7 @@ body{
     height: 100%;
     font-size: 25px;
     padding: 12px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-family:Robotothin;
     font-weight: bold;
     color:black;
     text-align: center;
