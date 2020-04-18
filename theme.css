@@ -5,6 +5,8 @@
     background-size: cover;
     box-sizing: border-box;
   }
+
+
 .Lavanviolin { background-image: url("Lavanviolin.jpg"); }
 .Decanationalsgroup { background-image: url("DecaNationalsgroup.JPG"); }
 .Lavanfamily { background-image: url("Lavanfamily.JPG"); }
@@ -12,6 +14,7 @@
 .Lavanrobotics { background-image: url("LavanRobotics.JPG"); }
 .Decanationalssolo { background-image: url("DecaNationalssolo.JPG"); }
 .Decaregionals { background-image: url("Decaregionals.JPG"); }
+.Decasolo{background-image: url("Decasolo.jpg");}
 
 @font-face{
     font-family: Robotothin;
@@ -37,7 +40,8 @@
 
 .divbar
     {
-    background-color:#FFAF9F ;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0, 0.4); 
     width: 100%;
     height: 60px;
     position: fixed;
@@ -55,15 +59,16 @@
     padding: 12px;
     font-family:Robotothin;
     font-weight: bold;
-    color:black;
+    color:white;
     text-align: center;
     text-decoration: none;
     }
 .divbar a:hover
 {
-    background-color: rgba(251, 164, 147, 0.747);
+    background-color: black;
 }
 .divbar a.active
 {
-    background-color:#9FEFFF;
+    background-color:rgb(235, 233, 233); 
+    background-color: rgba(255, 255, 255, 0.4); 
 }
