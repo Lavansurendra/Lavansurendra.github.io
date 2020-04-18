@@ -1,11 +1,14 @@
 body{
-    background-image: url(https://img.wallpapersafari.com/desktop/1600/900/58/63/4k05j1.jpg)
+    background-image: image(src ="Lavan.jpg" alt "Picture of lavan");
+    background-repeat : no-repeat
 }
 .divbar
     {
     background-color:#FFAF9F ;
     width: 100%;
     height: 60px;
+    position: fixed;
+    top: 0px;
 
     }
 
