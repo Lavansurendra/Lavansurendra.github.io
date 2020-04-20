@@ -1,11 +1,19 @@
+.fade{
+    animation: Fadein 5s;
+}
+
 .background {
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    box-sizing: border-box;
-  }
-
+    box-sizing: border-box;    
+    margin: 0;
+   }
+@keyframes Fadein{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
 
 .Lavanviolin { background-image: url("Lavanviolin.jpg"); }
 .Decanationalsgroup { background-image: url("DecaNationalsgroup.JPG"); }
