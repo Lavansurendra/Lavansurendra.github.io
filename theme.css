@@ -24,6 +24,8 @@
 .Decaregionals { background-image: url("Decaregionals.JPG"); }
 .Decasolo{background-image: url("Decasolo.jpg");}
 .aboutpagemain{background-image: url("Lavanwalking.JPG");}
+.aboutfamily{background-image: url("Family small.JPG");}
+.aboutcontact{background-image: url("Lavancontact.JPG");}
 @font-face{
     font-family: Robotothin;
     src: url(Roboto-Thin.ttf);
@@ -59,6 +61,7 @@
     height: 60px;
     position: fixed;
     top: 0px;
+    z-index: 5;
     }
 
 
@@ -117,6 +120,7 @@
     background-color:#5FB1FF;
     color: white;
     box-sizing: border-box;
+
 }
 
 .inforect{
@@ -126,6 +130,7 @@
     background-color:#FFAD5F;
     color: white;
     box-sizing: border-box;
+
 }
 .infobox h1, .inforect h1{
     font-family: Robotothin;
