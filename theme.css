@@ -1,6 +1,10 @@
 .fade{
     animation: Fadein 5s;
 }
+@keyframes Fadein{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
 
 .background {
     height: 100%; 
@@ -10,12 +14,8 @@
     box-sizing: border-box;    
     margin: 0;
    }
-@keyframes Fadein{
-    from{opacity: 0;}
-    to{opacity: 1;}
-}
 
-.Lavanviolin { background-image: url("Lavanviolin.jpg"); }
+.Lavanviolin {background-image: url("Lavanviolin.jpg");}
 .Decanationalsgroup { background-image: url("DecaNationalsgroup.JPG"); }
 .Lavanfamily { background-image: url("Lavanfamily.JPG"); }
 .Lavanfamily2{ background-image: url("Lavanfamily2.JPG"); }
@@ -23,10 +23,15 @@
 .Decanationalssolo { background-image: url("DecaNationalssolo.JPG"); }
 .Decaregionals { background-image: url("Decaregionals.JPG"); }
 .Decasolo{background-image: url("Decasolo.jpg");}
-
+.aboutpagemain{background-image: url("Lavanwalking.JPG");}
 @font-face{
     font-family: Robotothin;
     src: url(Roboto-Thin.ttf);
+}
+
+@font-face{
+    font-family: Robotolight;
+    src: url(Roboto-Light.ttf);
 }
 .largetext{
     background-color: rgb(0,0,0); 
@@ -73,10 +78,64 @@
     }
 .divbar a:hover
 {
-    background-color: black;
+    background-color: black;};
+
 }
+
 .divbar a.active
 {
     background-color:rgb(235, 233, 233); 
     background-color: rgba(255, 255, 255, 0.4); 
+}
+
+.navigation
+{
+    height: 100px;
+    width: 100%;
+    position: relative;;
+    bottom: 0px; 
+    background-color: black; 
+    z-index: 2;
+    color: white;
+    font-family:Robotolight;
+}
+.navigation th {
+    font-size: 18px;
+}
+.navigation td {
+    text-align: center;
+    font-size: 12px;
+}
+.navigation a{
+    color: white;
+}
+
+.infobox{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    background-color:#5FB1FF;
+    color: white;
+    box-sizing: border-box;
+}
+
+.inforect{
+    width: 400px;
+    height: 200px;
+    position: absolute;
+    background-color:#FFAD5F;
+    color: white;
+    box-sizing: border-box;
+}
+.infobox h1, .inforect h1{
+    font-family: Robotothin;
+    font-size: 40px;
+    padding-left: 15px;
+
+}
+
+.infobox h2, .inforect h2{
+    font-family: Robotolight;
+    font-size: 18px;
+    padding-left: 15px;
 }
