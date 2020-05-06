@@ -11,8 +11,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    box-sizing: border-box;    
+    box-sizing: border-box;   
     margin: 0;
+    position: relative;
    }
 
 .Lavanviolin {background-image: url("Lavanviolin.jpg");}
@@ -61,7 +62,7 @@
     height: 60px;
     position: fixed;
     top: 0px;
-    z-index: 5;
+    z-index: 10;
     }
 
 
@@ -83,6 +84,13 @@
 {
     background-color: black;};
 
+}
+.divbar a h1
+{
+    font-size: 12px;
+    color: red;
+    position: absolute;
+    top: 50px;
 }
 
 .divbar a.active
@@ -120,6 +128,7 @@
     background-color:#5FB1FF;
     color: white;
     box-sizing: border-box;
+    z-index: 5;
 
 }
 
@@ -130,6 +139,7 @@
     background-color:#FFAD5F;
     color: white;
     box-sizing: border-box;
+    z-index: 5;
 
 }
 .infobox h1, .inforect h1{
